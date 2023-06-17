@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+@font-face {
+    font-family: SBSansInterface;
+    src: url(../fonts/SB_Sans_Interface.ttf);
+}
+
+// font families
+$main-font: SBSansInterface;
+
+// font sizes
+$h1-size: 2.4rem;
+$title-size: 2rem;
+$label-size: 1.4rem;
+
+// indents
+$default-paddding: 2.4rem;

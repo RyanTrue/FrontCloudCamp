@@ -1,0 +1,18 @@
+@use "../../../styles/global/" as *;
+
+.formContainer {
+    font-size: $label-size;
+}
+
+.advantages {
+    @include display-flex();
+    @include flex-direction-column();
+}
+
+.advantagesTitle {
+    font-size: $label-size;
+}
+
+.checkboxGroup {
+    padding: 1rem 0 2rem;
+}
